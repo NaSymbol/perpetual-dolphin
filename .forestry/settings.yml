@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5e96db44326c1c0014f87bfd/webhook/forestry
 sections:
+- type: directory
+  path: ''
+  label: lablee5
+  create: all
+  match: "**/*"
 - type: document
   path: site-metadata.json
   label: Global Site Config
